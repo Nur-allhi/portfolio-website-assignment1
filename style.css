@@ -1,0 +1,43 @@
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+section {
+  height: 500px;
+}
+h1 {
+  font-size: 50px;
+  color: rgb(8, 58, 73);
+  /* margin-left: 50px; */
+}
+h1 span {
+  color: rgb(235, 53, 8);
+}
+h3 {
+  font-size: 20px;
+  /* margin-left: 50px; */
+  margin-bottom: 30px;
+}
+/* button-work */
+.button {
+  text-decoration: none;
+  padding: 13px 30px;
+  color: white;
+  /* margin-left: 50px; */
+  background-image: linear-gradient(#f64621, #d64e29);
+  border-radius: 5px;
+  font-weight: 700;
+}
+/* section-work */
+.half-width {
+  width: 600px;
+  float: left;
+  margin-left: 2%;
+  padding-left: 1%;
+}
+.half-width img {
+  width: 500px;
+  margin-top: -70px;
+}
+p {
+  margin-bottom: 30px;
+}
