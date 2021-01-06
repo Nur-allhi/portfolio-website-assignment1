@@ -1,13 +1,14 @@
 * {
   box-sizing: border-box;
 }
+/* navbar styling */
 .navbar {
   text-align: right;
   list-style: none;
-  padding: 1rem 5rem;
+  padding: 16px 80px;
 }
 .navbar li {
-  margin-left: 2rem;
+  margin-left: 32px;
   display: inline-block;
   color: rgb(104, 94, 94);
   font-weight: 700;
@@ -15,8 +16,6 @@
 body {
   font-family: "Ubuntu", sans-serif;
   margin: 0;
-  /* padding: 5px; */
-  /* padding: 0 5rem; */
   overflow-x: hidden;
 }
 section {
@@ -42,7 +41,6 @@ h3 {
   text-decoration: none;
   padding: 13px 30px;
   color: white;
-  /* margin-left: 50px; */
   background-image: linear-gradient(#f64621, #d64e29);
   border-radius: 7px;
   font-weight: 700;
@@ -67,11 +65,6 @@ p {
   margin-top: 150px;
   text-align: center;
 }
-.column {
-  float: left;
-  width: 25%;
-  padding: 50px;
-  padding-left: 50px;
 }
 .img-container {
   width: 100vw;
@@ -81,10 +74,10 @@ p {
 .img_holder {
   width: 30%;
   display: inline-block;
-  padding: 1rem;
+  padding: 16px;
   background: rgb(230, 230, 230);
-  border-radius: 1rem;
-  margin: 1rem;
+  border-radius: 16px;
+  margin: 16px;
   text-align: left;
 }
 .img_holder h2 {
@@ -106,20 +99,20 @@ p {
   background-position: center;
   background-size: cover;
   width: 46%;
-  margin: 3rem auto;
-  padding: 1.5rem;
-  border-radius: 1rem;
-  margin-top: 10rem;
+  margin: 48px auto;
+  padding: 24px;
+  border-radius: 16px;
+  margin-top: 160px;
 }
 .work-inquiry h2 {
   color: white;
-  font-size: 2.5rem;
+  font-size: 40px;
   display: inline-block;
 }
 .work-inquiry button {
   display: inline-block;
-  margin-left: 14rem;
-  padding: 13px 1.5rem;
+  margin-left: 224px;
+  padding: 13px 24px;
   background-color: #d64e29;
   color: white;
   border: none;
@@ -129,10 +122,10 @@ p {
 /* footer-work */
 .footer {
   text-align: center;
-  margin-top: 5rem;
+  margin-top: 80px;
 }
 .footer h3 {
-  margin-bottom: 1rem;
+  margin-bottom: 16px;
 }
 .footer h2 {
   margin-top: 0;
@@ -142,7 +135,7 @@ p {
   margin: 0 auto;
 }
 .footer img {
-  width: 1rem;
-  height: 1rem;
+  width: 16px;
+  height: 16px;
   margin: 6px;
 }
